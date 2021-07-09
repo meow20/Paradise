@@ -438,6 +438,7 @@
 							"ERT_engineering",
 							"ERT_medical",
 							"ERT_janitorial",
+							"lifetimeid"
 						)
 						var/choice = input(user, "Select the appearance for this card.", "Agent Card Appearance") in appearances
 						if(!Adjacent(user))
@@ -877,6 +878,13 @@
 	desc = "All the prestige without the responsibility or the access. Applies to any ID."
 	decal_desc = "An ID straight from Cent. Com."
 	decal_icon_state = "centcom"
+
+/obj/item/id_decal/lifetimeid
+	name = "Trans-Solar Federation ID card decal"
+	icon_state = "id_decal_trans_solar"
+	desc = "PLACEHOLDER TEXT NO IDEA WHAT THE FACTION IS ABOUT"
+	decal_desc = "PLACEHOLDER"
+	decal_icon_state = "lifetimeid"
 
 /obj/item/id_decal/emag
 	name = "cryptographic sequencer ID card decal"
